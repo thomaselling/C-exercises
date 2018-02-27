@@ -43,4 +43,10 @@ int main() {
 	// y is now 4
 	(*p)++; // the value of p is incremented by 1
 	printf("y = %u\n\n", y);
+
+	// overall, --, ++, and . take precedence over *.
+	// (*p)++; increments value of what p points to
+	// *p++; increments p iself
+
+	return 0;
 }
